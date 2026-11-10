@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-label="教学系统原型集">
+<rect x="0.5" y="0.5" width="599" height="259" rx="4" fill="#1B1A14" stroke="#3A372D"/>
+<rect x="28.5" y="28.5" width="13" height="13" fill="none" stroke="#9E9785"/>
+<text x="572" y="44" text-anchor="end" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="14" letter-spacing="1.5" fill="#625C4D">AI · 教育</text>
+<text x="28" y="92" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong','SimSun',Georgia,serif" font-size="32" font-weight="600" fill="#E9E3D3">教学系统原型集</text>
+<text x="28" y="124" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="18" fill="#9E9785">AI + 教育的三个课堂原型</text>
+<rect x="28" y="146" width="544" height="1" fill="#3A372D"/>
+<text x="28" y="180" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="17" fill="#E9E3D3" fill-opacity=".9">多智能体辅导、景区数字人导游、语音知识图谱，三个可演示的教学原型。</text>
+<text x="28" y="210" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="17" fill="#E9E3D3" fill-opacity=".9">每个都是自包含单文件 HTML，双击即开，离线可讲。</text>
+<text x="28" y="240" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="14" letter-spacing="0.5" fill="#625C4D">HTML · 多智能体 · 原型</text>
+</svg>

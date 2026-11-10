@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-label="重生·圆明园">
+<rect x="0.5" y="0.5" width="599" height="259" rx="4" fill="#FBF8EF" stroke="#D6CCB7"/>
+<rect x="28.5" y="28.5" width="13" height="13" fill="none" stroke="#6C6657"/>
+<text x="572" y="44" text-anchor="end" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="14" letter-spacing="1.5" fill="#A59D8B">数字遗产 · 3D 大赛</text>
+<text x="28" y="92" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong','SimSun',Georgia,serif" font-size="32" font-weight="600" fill="#1F1D18">重生·圆明园</text>
+<text x="28" y="124" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="18" fill="#6C6657">AI 数字文化遗产 3D 重建</text>
+<rect x="28" y="146" width="544" height="1" fill="#D6CCB7"/>
+<text x="28" y="180" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="17" fill="#1F1D18" fill-opacity=".9">第19届全国 3D 大赛作品：以文献、古画与 AI 生成，重建圆明园四大景区。</text>
+<text x="28" y="210" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="17" fill="#1F1D18" fill-opacity=".9">Web 端实时漫游，单文件 HTML、零 CDN 依赖，离线即可走进“万园之园”。</text>
+<text x="28" y="240" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="14" letter-spacing="0.5" fill="#A59D8B">Three.js · AI 重建 · 数字遗产</text>
+</svg>

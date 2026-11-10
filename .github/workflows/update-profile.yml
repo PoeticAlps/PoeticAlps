@@ -1,0 +1,66 @@
+# 每日刷新 Pac-Man 贡献热力图。
+# 失败处理:生成失败时保留上一次提交的热力图,并将作业标红以便察觉;仅在文件确有变化时提交,不会产生循环触发。
+# 权限:仅 refresh 作业拥有 contents: write;不使用任何自定义 Secret。
+# 注意:上游 Action 会向其统计端点上报用户名与游戏分数(见上游 src/index.js 的 reportStats)。
+
+name: update-profile
+
+on:
+  schedule:
+    - cron: '41 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-profile.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 上游:https://github.com/abozanona/pacman-contribution-graph,已固定到 commit。
+      - name: Generate Pac-Man contribution graph
+        id: pacman
+        continue-on-error: true
+        uses: abozanona/pacman-contribution-graph@294c47eff28a41339a279107ae771b5fa020037a
+        with:
+          github_user_name: PoeticAlps
+          games: pacman
+
+      - name: Copy Pac-Man SVGs into assets
+        if: steps.pacman.outcome == 'success'
+        run: |
+          mkdir -p assets/pacman
+          cp dist/pacman-contribution-graph.svg dist/pacman-contribution-graph-dark.svg assets/pacman/
+
+      - name: Commit changed assets
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --cached --quiet; then
+            echo "No asset changes to commit."
+          else
+            git commit -m "chore(profile): refresh generated assets"
+            git push
+          fi
+
+      - name: Report failures
+        if: steps.pacman.outcome == 'failure'
+        run: |
+          echo "::error::Pac-Man graph generation failed; previous graph kept."
+          exit 1

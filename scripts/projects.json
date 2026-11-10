@@ -1,0 +1,70 @@
+{
+  "_comment": "精选作品数据源。新增作品时在此追加一项，运行 node scripts/build-assets.mjs 重新生成卡片，并在 README.md 的精选作品表格中加入对应的 <picture> 引用。",
+  "projects": [
+    {
+      "id": "yuanmingyuan-3d",
+      "title": "重生·圆明园",
+      "subtitle": "AI 数字文化遗产 3D 重建",
+      "kind": "数字遗产 · 3D 大赛",
+      "url": "https://github.com/PoeticAlps/--3d",
+      "desc": [
+        "第19届全国 3D 大赛作品：以文献、古画与 AI 生成，重建圆明园四大景区。",
+        "Web 端实时漫游，单文件 HTML、零 CDN 依赖，离线即可走进“万园之园”。"
+      ],
+      "tags": [
+        "Three.js",
+        "AI 重建",
+        "数字遗产"
+      ]
+    },
+    {
+      "id": "hepu-zhuhuan",
+      "title": "合浦珠还",
+      "subtitle": "校园失物招领平台",
+      "kind": "全栈 · 校园平台",
+      "url": "https://github.com/PoeticAlps/Ricardo",
+      "desc": [
+        "为桂林旅游学院打造的失物招领：发布后按类别、相似度与地点自动匹配。",
+        "FastAPI + SQLite 一键启动,Docker 一条命令部署，开箱即用。"
+      ],
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ]
+    },
+    {
+      "id": "ask-first",
+      "title": "ask-first",
+      "subtitle": "先问再做的 AI 助手 Skill",
+      "kind": "Reusable Agent Skill",
+      "highlight": true,
+      "url": "https://github.com/PoeticAlps/ask-first",
+      "desc": [
+        "新项目或模糊需求，先以 2–3 轮提问收齐上下文，确认后再动手。",
+        "明确指令与琐碎任务直接执行、不打扰，零依赖，装上即用。"
+      ],
+      "tags": [
+        "Agent Skill",
+        "Context-first",
+        "零依赖"
+      ]
+    },
+    {
+      "id": "agnes-learning",
+      "title": "教学系统原型集",
+      "subtitle": "AI + 教育的三个课堂原型",
+      "kind": "AI · 教育",
+      "url": "https://github.com/PoeticAlps/agnes-learning-systems",
+      "desc": [
+        "多智能体辅导、景区数字人导游、语音知识图谱，三个可演示的教学原型。",
+        "每个都是自包含单文件 HTML，双击即开，离线可讲。"
+      ],
+      "tags": [
+        "HTML",
+        "多智能体",
+        "原型"
+      ]
+    }
+  ]
+}

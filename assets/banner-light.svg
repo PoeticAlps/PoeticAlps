@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Poetic Alps — Creative Builder">
+<defs>
+<linearGradient id="rg0" gradientUnits="userSpaceOnUse" x1="0" y1="138" x2="0" y2="345">
+<stop offset="0" stop-color="#C4BAA0" stop-opacity="0.5"/>
+<stop offset="0.5" stop-color="#C4BAA0" stop-opacity="0.28"/>
+<stop offset="1" stop-color="#C4BAA0" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="rg1" gradientUnits="userSpaceOnUse" x1="0" y1="190" x2="0" y2="345">
+<stop offset="0" stop-color="#9A9078" stop-opacity="0.6"/>
+<stop offset="0.5" stop-color="#9A9078" stop-opacity="0.33"/>
+<stop offset="1" stop-color="#9A9078" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="rg2" gradientUnits="userSpaceOnUse" x1="0" y1="240" x2="0" y2="345">
+<stop offset="0" stop-color="#6A6350" stop-opacity="0.72"/>
+<stop offset="0.5" stop-color="#6A6350" stop-opacity="0.40"/>
+<stop offset="1" stop-color="#6A6350" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="rg3" gradientUnits="userSpaceOnUse" x1="0" y1="304" x2="0" y2="345">
+<stop offset="0" stop-color="#3B3729" stop-opacity="0.85"/>
+<stop offset="0.5" stop-color="#3B3729" stop-opacity="0.47"/>
+<stop offset="1" stop-color="#3B3729" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000"/><stop offset="0.18" stop-color="#fff"/><stop offset="1" stop-color="#fff"/>
+</linearGradient>
+<mask id="mfade"><rect x="470" y="0" width="770" height="320" fill="url(#fade)"/></mask>
+</defs>
+<rect width="1200" height="320" fill="#F4F0E4"/>
+<circle cx="1032" cy="76" r="40" fill="none" stroke="#D6CCB7" stroke-width="1"/>
+<circle cx="1032" cy="76" r="33" fill="#DCD2B6"/>
+<g mask="url(#mfade)">
+<path d="M 573 207 Q 606 170 634 198 Q 662 226 709 182 Q 756 138 796 183 Q 836 228 882 193 Q 928 158 968 196 Q 1008 234 1054 190 Q 1100 146 1141 180 Q 1182 214 1211 196 L 1240 178 L 1240 400 L 540 400 Z" fill="url(#rg0)"/>
+<path d="M 587 239 Q 634 206 673 234 Q 712 262 765 226 Q 818 190 856 224 Q 894 258 946 228 Q 998 198 1043 227 Q 1088 256 1133 230 Q 1178 204 1209 221 L 1240 238 L 1240 400 L 540 400 Z" fill="url(#rg1)"/>
+<path d="M 597 275 Q 654 246 701 271 Q 748 296 805 268 Q 862 240 907 267 Q 952 294 1005 272 Q 1058 250 1104 274 Q 1150 298 1195 282 L 1240 266 L 1240 400 L 540 400 Z" fill="url(#rg2)"/>
+<path d="M 630 321 Q 700 310 770 319 Q 840 328 915 316 Q 990 304 1060 314 Q 1130 324 1185 318 L 1240 312 L 1240 400 L 560 400 Z" fill="url(#rg3)"/>
+</g>
+<rect x="76" y="84" width="34" height="34" fill="#A8402F"/>
+<text x="93" y="110" text-anchor="middle" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong','SimSun',Georgia,serif" font-size="22" font-weight="700" fill="#FBF8EF">山</text>
+<text x="76" y="192" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong','SimSun',Georgia,serif" font-size="58" font-weight="600" letter-spacing="10" fill="#1F1D18">POETIC ALPS</text>
+<rect x="76" y="218" width="330" height="1" fill="#D6CCB7"/>
+<text x="76" y="252" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="18" letter-spacing="5" fill="#6C6657">CREATIVE BUILDER</text>
+<text x="76" y="292" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong','SimSun',Georgia,serif" font-size="26" fill="#1F1D18">什么都做一点的建造者</text>
+</svg>
