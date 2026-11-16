@@ -5,6 +5,8 @@
   </picture>
 </p>
 
+<p align="center">🏠 <a href="https://poeticalps.github.io/"><b>个人主页 poeticalps.github.io</b></a> — 重生·圆明园 · 数字文化遗产 3D 重建</p>
+
 <p align="center">
   喜欢把课堂、文化遗产和小游戏的点子，做成能跑起来的东西。<br>
   <sub>Turning ideas for classrooms, heritage and little games into things that run.</sub>
